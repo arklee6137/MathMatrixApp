@@ -15,14 +15,32 @@ using System.Windows.Shapes;
 
 namespace MathMatrixApp
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
+    class Matrix
+    {
+
+    }
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+
+        private void TextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            TextBox box = (TextBox)sender;
+            if (e.Key == Key.Enter)
+            {
+                matrix.Text += box.Text + " ";
+                box.Text = "";
+            }
+        }
+
+        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+            
+            
         }
     }
 }

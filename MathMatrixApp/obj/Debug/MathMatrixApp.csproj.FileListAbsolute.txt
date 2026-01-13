@@ -1,0 +1,15 @@
+C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\bin\Debug\MathMatrixApp.exe.config
+C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\bin\Debug\MathMatrixApp.exe
+C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\bin\Debug\MathMatrixApp.pdb
+C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\obj\Debug\MathMatrixApp.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\obj\Debug\MainWindow.g.cs
+C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\obj\Debug\App.g.cs
+C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\obj\Debug\MathMatrixApp_MarkupCompile.cache
+C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\obj\Debug\MathMatrixApp_MarkupCompile.lref
+C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\obj\Debug\MainWindow.baml
+C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\obj\Debug\MathMatrixApp.g.resources
+C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\obj\Debug\MathMatrixApp.Properties.Resources.resources
+C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\obj\Debug\MathMatrixApp.csproj.GenerateResource.cache
+C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\obj\Debug\MathMatrixApp.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\obj\Debug\MathMatrixApp.exe
+C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\obj\Debug\MathMatrixApp.pdb

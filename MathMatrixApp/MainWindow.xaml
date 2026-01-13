@@ -6,7 +6,22 @@
         xmlns:local="clr-namespace:MathMatrixApp"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Window.InputBindings>
+        <KeyBinding Key="T" Command="{Binding RefreshCommand}"/>
+    </Window.InputBindings>
+    <Grid >
+
+        <Grid Margin="45,51,374,55" Background="#FFA7DAF0">
+
+            <TextBlock x:Name="matrix" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" Height="170" Width="196" Foreground="White" FontWeight="Bold" FontSize="30" TextAlignment="Center"/>
+        </Grid>
+        <Grid Margin="492,62,55,65" Background="#FFB1D4FD">
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Enter matrix" VerticalAlignment="Top" Height="38" Width="177" Foreground="White" FontWeight="Bold" FontSize="30" Margin="0,50,0,0" RenderTransformOrigin="0.505,1.097"/>
+            <TextBox HorizontalAlignment="Center"  Text="" VerticalAlignment="Top" Width="120"  KeyDown="TextBox_KeyDown" TextChanged="TextBox_TextChanged_1" TextAlignment="Center" Height="36" Margin="0,118,0,0"/>
+
+        </Grid>
+
+
+
     </Grid>
 </Window>
