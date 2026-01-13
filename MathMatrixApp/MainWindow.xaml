@@ -4,20 +4,19 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MathMatrixApp"
+        xmlns:controls="clr-namespace:WpfMath.Controls;assembly=WpfMath"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Window.InputBindings>
-        <KeyBinding Key="T" Command="{Binding RefreshCommand}"/>
-    </Window.InputBindings>
     <Grid >
 
         <Grid Margin="45,51,374,55" Background="#FFA7DAF0">
-
-            <TextBlock x:Name="matrix" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" Height="170" Width="196" Foreground="White" FontWeight="Bold" FontSize="30" TextAlignment="Center"/>
+            <controls:FormulaControl x:Name="formula" Formula="\pmatrix{0}" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" FontSize="40" Foreground="White"  />
+            <Button x:Name="Clear_matrix_button" Content="Clear matrix" HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Top" BorderBrush="White" Background="White" Foreground="#FFA7DAF0" Height="37" Width="77" FontWeight="Bold" Click="Clear_matrix_button_Click"/>
         </Grid>
         <Grid Margin="492,62,55,65" Background="#FFB1D4FD">
-            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Enter matrix" VerticalAlignment="Top" Height="38" Width="177" Foreground="White" FontWeight="Bold" FontSize="30" Margin="0,50,0,0" RenderTransformOrigin="0.505,1.097"/>
-            <TextBox HorizontalAlignment="Center"  Text="" VerticalAlignment="Top" Width="120"  KeyDown="TextBox_KeyDown" TextChanged="TextBox_TextChanged_1" TextAlignment="Center" Height="36" Margin="0,118,0,0"/>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="New matrix 3x3" VerticalAlignment="Top" Height="81" Width="177" Foreground="White" FontWeight="Bold" FontSize="30" Margin="0,31,0,0" RenderTransformOrigin="0.505,1.097" TextAlignment="Center"/>
+            <TextBox HorizontalAlignment="Center"  Text="" VerticalAlignment="Top" Width="120"  KeyDown="TextBox_KeyDown" TextAlignment="Center" Height="35" Margin="0,170,0,0"/>
+            <Label Content="Click &quot;Enter&quot; to add number" HorizontalAlignment="Left" Margin="38,210,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FFFFFBFB" Height="38"/>
 
         </Grid>
 

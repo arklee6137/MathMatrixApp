@@ -13,3 +13,6 @@ C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatr
 C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\obj\Debug\MathMatrixApp.csproj.CoreCompileInputs.cache
 C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\obj\Debug\MathMatrixApp.exe
 C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\obj\Debug\MathMatrixApp.pdb
+C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\bin\Debug\WpfMath.dll
+C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\bin\Debug\XamlMath.Shared.dll
+C:\Users\user\OneDrive\Документы\GitHub\mathgame\MathMatrixApp\MathMatrixApp\obj\Debug\MathMatr.03B12C8F.Up2Date
